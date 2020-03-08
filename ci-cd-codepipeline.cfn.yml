@@ -2,17 +2,17 @@
 AWSTemplateFormatVersion: 2010-09-09
 
 Description: EKSWSV1
-
+e5abf6769cdbc1b24986ff0ab06cb42215fc2877
 
 Parameters:
 
   EksClusterName:
     Type: String
-    Description: The name of the EKS cluster created
+    Description: simple-jwt-api
     Default: 
     MinLength: 1
     MaxLength: 100
-    ConstraintDescription: You must enter the EKS cluster name
+    ConstraintDescription: simple-jwt-api
 
   GitSourceRepo:
     Type: String
